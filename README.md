@@ -1,2 +1,2 @@
 # Project-2024
-Group project for practical programming/ Arthur Benard/ Louma Cerutti/ Sarah El Skakini
+Group project for practical programming/ Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini
