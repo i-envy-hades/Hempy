@@ -5,3 +5,4 @@ Group project for practical programming/ Arthur Yves Noël Benard/ Louma Cerutti
 - Q° is .gitignore necessary? what to include?
 - when functions added and done, create dist file with "python setup.py sdist"
 - notebook file
+- sphinx file (see email)
