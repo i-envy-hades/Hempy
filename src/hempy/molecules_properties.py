@@ -44,3 +44,44 @@ cas_number = '1972-08-3'  # CAS for THC
 properties_data, chemical_url = fetch_chemical_properties_by_cas(cas_number)
 display(properties_data)  # This will display the styled table in Jupyter Notebook or similar
 print(f"URL to chemical page: {chemical_url}")
+
+
+
+from rdkit import Chem
+from rdkit.Chem import AllChem
+from rdkit import DataStructs
+from sklearn.metrics import pairwise_distances
+import numpy as np
+
+def calculate_molecular_similarity(mol_1 : str, mol_2 : str):
+
+    """
+    Calculate the similaritie between two molecules by index Jaccard and Tanimoto.
+    -----
+    Parameters: 
+    
+    mol_1 : reference molecule, the one used for comparison
+    mol_2 : comparison molecule, which will be studied according to the first
+    -----
+    Return:
+    
+    Jaccard and Tanimoto index, between 0 and 1: the closer it is to 1, the more similar the two molecules are. 
+    """
+    # Générer des empreintes moléculaires pour le THC et le CBD
+    fp_thc = AllChem.GetMorganFingerprintAsBitVect(mol_1, 2, nBits=1024)
+    fp_cbd = AllChem.GetMorganFingerprintAsBitVect(mol_2, 2, nBits=1024)
+
+    # Convertir en vecteurs numpy
+    array_thc = np.zeros((1,))
+    array_cbd = np.zeros((1,))
+    DataStructs.ConvertToNumpyArray(fp_thc, array_thc)
+    DataStructs.ConvertToNumpyArray(fp_cbd, array_cbd)
+
+    # Calculer la similarité de Jaccard
+    similarity_jaccard = 1 - pairwise_distances(array_thc.reshape(1, -1), array_cbd.reshape(1, -1), metric="jaccard")[0][0]
+
+    # Calculer la similarité de Tanimoto
+    similarity_tanimoto = DataStructs.TanimotoSimilarity(fp_thc, fp_cbd)
+
+    return similarity_jaccard, similarity_tanimoto
+
