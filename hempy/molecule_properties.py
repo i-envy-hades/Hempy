@@ -96,7 +96,6 @@ similarity_jaccard, similarity_tanimoto = calculate_molecular_similarity(THC_mol
 print("Similarity (Jaccard):", similarity_jaccard)
 print("Similarity (Tanimoto):", similarity_tanimoto)
 
-
 from urllib.request import urlopen
 from urllib.parse import quote
 
@@ -122,3 +121,5 @@ def smiles_code(name):
         return ans
     except:
         return 'Did not work' #If the molecule name is not well written or doesn't exist, it returns nothing
+
+

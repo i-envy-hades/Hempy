@@ -56,4 +56,4 @@ def visualize_CBD_synthesis():
     reaction3 = AllChem.ReactionFromSmarts(f'{smiles_cbda}>>{smiles_cbd}')
     img3 = Draw.ReactionToImage(reaction3)
     display(img3)
-visualize_cannabinoid_synthesis()
+visualize_CBD_synthesis()
