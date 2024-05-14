@@ -6,3 +6,4 @@ Group project for practical programming/ Arthur Yves Noël Benard/ Louma Cerutti
 - when functions added and done, create dist file with "python setup.py sdist"
 - notebook file
 - sphinx file (see email)
+- projet_Louma : nothing appears after edit ? now delete every other no package's branches  ? 
