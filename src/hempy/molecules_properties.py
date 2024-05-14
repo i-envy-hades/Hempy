@@ -85,3 +85,13 @@ def calculate_molecular_similarity(mol_1 : str, mol_2 : str):
 
     return similarity_jaccard, similarity_tanimoto
 
+# Exemple d'utilisation de la fonction
+THC_smiles = "CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O"
+CBD_smiles = "CCCCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O"
+
+THC_mol = Chem.MolFromSmiles(THC_smiles)
+CBD_mol = Chem.MolFromSmiles(CBD_smiles)
+
+similarity_jaccard, similarity_tanimoto = calculate_molecular_similarity(THC_mol, CBD_mol)
+print("Similarity (Jaccard):", similarity_jaccard)
+print("Similarity (Tanimoto):", similarity_tanimoto)    
