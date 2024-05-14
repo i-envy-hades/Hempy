@@ -94,4 +94,31 @@ CBD_mol = Chem.MolFromSmiles(CBD_smiles)
 
 similarity_jaccard, similarity_tanimoto = calculate_molecular_similarity(THC_mol, CBD_mol)
 print("Similarity (Jaccard):", similarity_jaccard)
-print("Similarity (Tanimoto):", similarity_tanimoto)    
+print("Similarity (Tanimoto):", similarity_tanimoto)
+
+
+from urllib.request import urlopen
+from urllib.parse import quote
+
+"""
+urllib.request library is imported, it allows URL links to be opened.
+urllib.parse library is imported, it is able to combine URL components into URL strings
+
+Parameters:
+----------
+-string , corresponding to molecule name (ex: 'Water', 'Methanol', ...)
+
+Returns:
+-------
+-string , corresponding to SMILES code (ex: 'O', 'COH',...)
+
+"""
+
+
+def smiles_code(name):
+    try:
+        url = 'http://cactus.nci.nih.gov/chemical/structure/' + quote(name) + '/smiles' #Opens up a page with SMILES code
+        ans = urlopen(url).read().decode('utf8') #Reads answer
+        return ans
+    except:
+        return 'Did not work' #If the molecule name is not well written or doesn't exist, it returns nothing
