@@ -3,6 +3,7 @@ from rdkit.Chem import Draw, AllChem
 from IPython.display import display
 
 def visualize_THC_synthesis():
+    "This function returns the synthesis reaction of THC"
     # Smiles of molecules
     smiles_olivetol = 'C1=CC(=C(C=C1O)CCC(=O)O)O'
     smiles_gpp = 'CCOP(=O)(OCC)OC(=C)C'
@@ -30,6 +31,7 @@ def visualize_THC_synthesis():
 visualize_THC_synthesis()
 
 def visualize_CBD_synthesis():
+    "This function returns the synthesis reaction of CBD"
     # Smiles of molecules
     smiles_olivetol = 'C1=CC(=C(C=C1O)CCC(=O)O)O'
     smiles_gpp = 'CCOP(=O)(OCC)OC(=C)C'
