@@ -30,7 +30,6 @@ def plot_consumption_percentage():
     # Show the plot
     plt.show()
 
-plot_consumption_percentage()
 
 def plot_time_vs_age():
     """
@@ -55,11 +54,10 @@ def plot_time_vs_age():
     ax.set_title('Time of the Effect in function of Age')
     ax.set_xlabel('Age')
     ax.set_ylabel('Time (in minutes)')
-    
+
     # Enable grid
     ax.grid(True)
     
     # Show the plot
     plt.show()
 
-plot_effect_time_in function_of_age()

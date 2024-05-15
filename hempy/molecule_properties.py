@@ -1,6 +1,16 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+from rdkit import Chem
+from rdkit.Chem import AllChem
+from rdkit import DataStructs
+from sklearn.metrics import pairwise_distances
+import numpy as np
+from urllib.request import urlopen
+from urllib.parse import quote
+
+
+
 
 def fetch_chemical_properties_by_cas(cas_number):
     """
@@ -39,19 +49,8 @@ def fetch_chemical_properties_by_cas(cas_number):
         data = data.style.set_properties(**{'text-align': 'left'}).set_table_styles([dict(selector='th', props=[('text-align', 'left')])])
         return data, final_url
 
-# Usage of the function
-cas_number = '1972-08-3'  # CAS for THC
-properties_data, chemical_url = fetch_chemical_properties_by_cas(cas_number)
-display(properties_data)  # This will display the styled table in Jupyter Notebook or similar
-print(f"URL to chemical page: {chemical_url}")
 
 
-
-from rdkit import Chem
-from rdkit.Chem import AllChem
-from rdkit import DataStructs
-from sklearn.metrics import pairwise_distances
-import numpy as np
 
 def calculate_molecular_similarity(mol_1 : str, mol_2 : str):
 
@@ -85,36 +84,23 @@ def calculate_molecular_similarity(mol_1 : str, mol_2 : str):
 
     return similarity_jaccard, similarity_tanimoto
 
-# Exemple d'utilisation de la fonction
-THC_smiles = "CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O"
-CBD_smiles = "CCCCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O"
 
-THC_mol = Chem.MolFromSmiles(THC_smiles)
-CBD_mol = Chem.MolFromSmiles(CBD_smiles)
-
-similarity_jaccard, similarity_tanimoto = calculate_molecular_similarity(THC_mol, CBD_mol)
-print("Similarity (Jaccard):", similarity_jaccard)
-print("Similarity (Tanimoto):", similarity_tanimoto)
-
-from urllib.request import urlopen
-from urllib.parse import quote
-
-"""
-urllib.request library is imported, it allows URL links to be opened.
-urllib.parse library is imported, it is able to combine URL components into URL strings
-
-Parameters:
-----------
--string , corresponding to molecule name (ex: 'Water', 'Methanol', ...)
-
-Returns:
--------
--string , corresponding to SMILES code (ex: 'O', 'COH',...)
-
-"""
 
 
 def smiles_code(name):
+    """
+    urllib.request library is imported, it allows URL links to be opened.
+    urllib.parse library is imported, it is able to combine URL components into URL strings
+    
+    Parameters:
+    ----------
+    -string , corresponding to molecule name (ex: 'Water', 'Methanol', ...)
+    
+    Returns:
+    -------
+    -string , corresponding to SMILES code (ex: 'O', 'COH',...)
+    
+    """
     try:
         url = 'http://cactus.nci.nih.gov/chemical/structure/' + quote(name) + '/smiles' #Opens up a page with SMILES code
         ans = urlopen(url).read().decode('utf8') #Reads answer

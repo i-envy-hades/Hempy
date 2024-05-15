@@ -7,7 +7,7 @@ import numpy as np
 from rdkit.Chem import Draw
 from rdkit.Chem import Draw
 
-def draw_molecule_2D(smiles):
+def draw_2D(smiles):
     """
     Draw molecules in 2D according to these smiles with the fonctionnel group hightlight, here the hydroxyl.
     -----
@@ -26,21 +26,19 @@ def draw_molecule_2D(smiles):
     else:
         return "Impossible de dessiner la molécule, mauvais format pour les Smiles."
       
-THC_molecule = Chem.MolFromSmiles("CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O") #dronabinol from PubChem 
+
+THC_molecule = Chem.MolFromSmiles("CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O") #Dronabinol from PubChem 
 print(THC_molecule)
-# synonymes: Dronabinol, tetrahydrocannabinol, delta9-THC
+#Synonyms: Dronabinol, tetrahydrocannabinol, delta9-THC
 
-CBD_molecule = Chem.MolFromSmiles("CCCCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O") #cannabidiol from PubChem
+CBD_molecule = Chem.MolFromSmiles("CCCCCC1=CC(=C(C(=C1)O)C2C=C(CCC2C(=C)C)C)O") #Cannabidiol from PubChem
 print(CBD_molecule)
-#synonymes : cannabidiol
-
-THC_molecule
-CBD_molecule
+#Synonyms : Cannabidiol
 
 
 from nglview import show_structure_file
 
-def draw_molecule_3D(molecule: rdkit.Chem.rdchem.Mol, filename: str):
+def draw_3D(molecule: str, filename: str):
     """
     Generates a 3D structure from a RDKit Molecule object.
 
@@ -75,6 +73,5 @@ def draw_molecule_3D(molecule: rdkit.Chem.rdchem.Mol, filename: str):
     # Afficher la vue
     return view
 
-draw_molecule_3D(THC_molecule, "THC.pdb")
-draw_molecule_3D(CBD_molecule, "CBD.pdb")
+
 

@@ -2,6 +2,8 @@ from rdkit import Chem
 from rdkit.Chem import Draw, AllChem
 from IPython.display import display
 
+
+
 def visualize_THC_synthesis():
     "This function returns the synthesis reaction of THC"
     # Smiles of molecules
@@ -28,7 +30,8 @@ def visualize_THC_synthesis():
     reaction3 = AllChem.ReactionFromSmarts(f'{smiles_thca}>>{smiles_thc}')
     image3 = Draw.ReactionToImage(reaction3)
     display(image3)
-visualize_THC_synthesis()
+
+
 
 def visualize_CBD_synthesis():
     "This function returns the synthesis reaction of CBD"
@@ -56,4 +59,4 @@ def visualize_CBD_synthesis():
     reaction3 = AllChem.ReactionFromSmarts(f'{smiles_cbda}>>{smiles_cbd}')
     img3 = Draw.ReactionToImage(reaction3)
     display(img3)
-visualize_CBD_synthesis()
+
