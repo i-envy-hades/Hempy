@@ -1,9 +1,13 @@
-from rdkit import Chem
-from rdkit.Chem import Draw, AllChem
-from IPython.display import display
-#All imports required for the functions, just like the code
+from hempy.synthesis_reactions import visualize_THC_synthesis
+from hempy.synthesis_reactions import visualize_CBD_synthesis
 
-from hempy.synthesis_reactions import *
+
+def test_visualize_THC_synthesis():
+    THC = visualize_THC_synthesis()
+    THC_bis = 
+
+    
+
 
 #Reactions of THC and CBD synthesis can easily be seen with these functions
 visualize_THC_synthesis()
