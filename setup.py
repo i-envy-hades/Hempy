@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name = "hempy",
     version = "0.0.1",
-    description =,
+    description = 'Hempy',
     author = "Louma Cerrutti/ Arthur Benard/ Sarah El Skakini",
     author_email = "louma.cerrutti@epfl.ch/ arthur.benard@epfl.ch/ sarah.elskakini@epfl.ch",
     licence = "MIT",
@@ -14,7 +14,7 @@ setup(
         "pandas",
         "matplotlib"
     ],
-    long_description = file: README.md
+    long_description = 'Hempy',
     classifiers = [
         "Natural Language :: English",
         "Topic :: Scientific/Engineering :: Chemistry",
