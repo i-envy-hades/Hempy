@@ -1,0 +1,4 @@
+numpy>=1.24.6
+rdkit-pypi
+pandas
+matplotlib
