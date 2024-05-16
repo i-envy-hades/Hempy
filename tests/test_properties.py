@@ -4,7 +4,7 @@ from hempy.molecule_properties import fetch_chemical_properties_by_cas
 def test_fetch_chemical_properties_by_cas():
     
     expected_property_data = 
-    expected_chemical_url
+    expected_chemical_url=
     # Test for function fetch_chemical_properties_by_cas(), it requires an already known CAS number
     #imports : requests, BeautifulSoup, pandas
     cas_number = '1972-08-3'  # CAS for THC
