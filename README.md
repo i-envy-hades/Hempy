@@ -1,9 +1,31 @@
 # Project-2024
-Group project for practical programming/ Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini
+Group project for practical programming by Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini:
+
+The aim of our project was to create a function package to study chemical molecules.
+More specifically, it can be used to identify chemical properties from the CAS number of the molecule, to determine similarities between two molecules using the Jaccard and Tanimoto index, to visualize molecules in 2 and 3 dimensions, and to study in graphs and tables the values collected from a survey on the use of these molecules. 
 
 - test_visualization to fix and do
 - when functions added and done, create dist file with "python setup.py sdist"
 - now delete every other no package's branches  ? 
+
+# Installation 
+
+To install and use our package, go to the terminal and use the following commands:
+
+`pip install hempy`
+
+Avant cela verifier que la bonne version python soit déjà installer, qui doit être de ... :
+
+`python --version`
+
+Faire de même pour les versions de numpy, qui doit être de 1.24....??:
+
+`python -c "import numpy; print(numpy.__version__)"`
+
+Check that the following librarians are also installed:
+
+"rdkit-pypi", "pandas", "matplotlib" par la commande : `pip install [name of librarians]`
+
 
 # copier-liac
 
