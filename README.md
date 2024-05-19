@@ -24,7 +24,7 @@ Faire de même pour les versions de numpy, qui doit être de 1.24....??:
 
 Check that the following librarians are also installed:
 
-rdkit, pandas, 
+"rdkit-pypi", "pandas", "matplotlib" par la commande : `pip install [name of librarians]`
 
 
 # copier-liac
