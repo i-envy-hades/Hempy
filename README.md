@@ -1,11 +1,11 @@
 # Project-2024
-Group project for practical programming/ Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini
+Group project for practical programming by Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini:
+
+The aim of our project was to create a function package to study chemical molecules.
 
 - test_visualization to fix and do
 - when functions added and done, create dist file with "python setup.py sdist"
 - now delete every other no package's branches  ? 
-
-`code pip install`
 
 # copier-liac
 
