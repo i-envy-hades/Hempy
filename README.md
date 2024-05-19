@@ -11,6 +11,13 @@ More specifically, it can be used to identify chemical properties from the CAS n
 # Installation 
 
 To install and use our package, go to the terminal and use the following commands:
+`pip install hempy`
+Avant cela verifier que la bonne version python soit déjà installer :
+`python --version`
+Qui doit être de ...
+Faire de même pour les versions de numpy :
+`python -c "import numpy; print(numpy.__version__)"`Qui doit être de 1.24....??`
+
 
 # copier-liac
 
