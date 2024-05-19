@@ -8,6 +8,10 @@ More specifically, it can be used to identify chemical properties from the CAS n
 - when functions added and done, create dist file with "python setup.py sdist"
 - now delete every other no package's branches  ? 
 
+# Installation 
+
+To install and use our package, go to the terminal and use the following commands:
+
 # copier-liac
 
 [Copier](https://github.com/copier-org/copier) template for pure Python libraries.
