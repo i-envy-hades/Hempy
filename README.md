@@ -20,9 +20,9 @@ Avant cela verifier que la bonne version python soit déjà installer :
 
 Qui doit être de ...
 
-Faire de même pour les versions de numpy :
+Faire de même pour les versions de numpy, qui doit être de 1.24....??:
 
-`python -c "import numpy; print(numpy.__version__)"`Qui doit être de 1.24....??`
+`python -c "import numpy; print(numpy.__version__)"`
 
 
 # copier-liac
