@@ -22,6 +22,10 @@ Faire de même pour les versions de numpy, qui doit être de 1.24....??:
 
 `python -c "import numpy; print(numpy.__version__)"`
 
+Check that the following librarians are also installed:
+
+rdkit, pandas, 
+
 
 # copier-liac
 
