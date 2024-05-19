@@ -14,11 +14,9 @@ To install and use our package, go to the terminal and use the following command
 
 `pip install hempy`
 
-Avant cela verifier que la bonne version python soit déjà installer :
+Avant cela verifier que la bonne version python soit déjà installer, qui doit être de ... :
 
 `python --version`
-
-Qui doit être de ...
 
 Faire de même pour les versions de numpy, qui doit être de 1.24....??:
 
