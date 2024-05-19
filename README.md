@@ -5,6 +5,8 @@ Group project for practical programming/ Arthur Yves Noël Benard/ Louma Cerutti
 - when functions added and done, create dist file with "python setup.py sdist"
 - now delete every other no package's branches  ? 
 
+`code pip install`
+
 # copier-liac
 
 [Copier](https://github.com/copier-org/copier) template for pure Python libraries.
