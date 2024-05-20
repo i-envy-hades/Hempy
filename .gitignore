@@ -182,6 +182,7 @@ pyrightconfig.json
 # website: http://jupyter.org/
 
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 
 # IPython
