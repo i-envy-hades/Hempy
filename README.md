@@ -4,7 +4,7 @@ Group project for practical programming by Arthur Yves Noël Benard/ Louma Cerut
 The aim of our project was to create a function package to study chemical molecules.
 More specifically, it can be used to identify chemical properties from the CAS number of the molecule, to determine similarities between two molecules using the Jaccard and Tanimoto index, to visualize molecules in 2 and 3 dimensions, and to study in graphs and tables the values collected from a survey on the use of these molecules. 
 
-- test_visualization to fix and do
+- turbopeintre
 - delete every other branches
 
 # Installation 
