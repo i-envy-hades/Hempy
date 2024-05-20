@@ -40,6 +40,9 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+#Virtual Documents
+.virtual_documents
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -179,7 +182,7 @@ pyrightconfig.json
 # website: http://jupyter.org/
 
 .ipynb_checkpoints
-*/.ipynb_checkpoints/*
+
 
 # IPython
 profile_default/
