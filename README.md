@@ -10,7 +10,7 @@ More specifically, it can be used to identify chemical properties from the CAS n
 # Installation 
 
 To install and use our package, go to the terminal and use the following commands:
-
+`pip install -e .`
 `pip install hempy`
 
 Avant cela verifier que la bonne version python soit déjà installer, qui doit être de ... :
