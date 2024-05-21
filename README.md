@@ -42,11 +42,6 @@ Install the following librarians:
 
 
 
-Faire de même pour les versions de numpy, qui doit être de 1.24....??:
-
-`python -c "import numpy; print(numpy.__version__)"`
-
-
 To install and use our package, go to the terminal and use the following commands:
 `pip install -e .`
 
