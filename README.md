@@ -42,14 +42,7 @@ Install the following librarians:
 
 To install and use our package, go to the terminal and use the following commands:
 `pip install -e .`
-
-
-
-
-
-
-
-`pip install hempy`
+## manque commande pour installation exterieure ?? avoir notre URL github 
 
 # copier-liac
 
