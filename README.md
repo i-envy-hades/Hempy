@@ -34,7 +34,7 @@ Install the following librarians:
 
 "requests" with the command : `pip install requests`
 
-"beautiful soup" with the command : `pip install beautifulsoup4`
+"Beautiful Soup" with the command : `pip install beautifulsoup4`
 
 "IPython" with the command : `pip install ipython`
 
