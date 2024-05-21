@@ -7,6 +7,7 @@ More specifically, it can be used to identify chemical properties from the CAS n
 
 # Installation 
 
+## Python:
 First check that the correct python version is already installed, which must be 3.10. :`python --version`
 
 If not, update it: `python3 -m pip install --upgrade pip`
@@ -17,7 +18,7 @@ Rendez-vous sur le site officiel de Python à l'adresse (https://www.python.org)
 Allez dans la section "Downloads" et téléchargez l'installateur pour macOS.
 Ouvrez le fichier .pkg téléchargé et suivez les instructions à l'écran pour installer Python.
 
-
+## Librarians using:
 Install the following librarians:
 
 "numpy" with the command : :  `pip install numpy`
@@ -38,10 +39,10 @@ Install the following librarians:
 
 "matplotlib" with the command : : `pip install matplotlib `
 
-
+## Our package:
 
 To install and use our package, go to the terminal and use the following commands:
-`pip install -e .`
+`pip install git+https://github.com/i-envy-hades/Project-2024.git`
 ## manque commande pour installation exterieure ?? avoir notre URL github 
 
 # copier-liac
