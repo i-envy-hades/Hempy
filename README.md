@@ -9,27 +9,36 @@ More specifically, it can be used to identify chemical properties from the CAS n
 
 # Installation 
 
-Si pas encore python, l'installer :
-Rendez-vous sur le site officiel de Python à l'adresse (https://www.python.org) .
-Allez dans la section "Downloads" et téléchargez l'installateur pour macOS.
-
 Avant verifier que la bonne version python soit déjà installer, qui doit être de 3.10 :
 
 `python --version`
-Si non mettre à jour: python3 -m pip install --upgrade pip
+Si non mettre à jour: `python3 -m pip install --upgrade pip`
+
+
+Si pas encore python, l'installer :
+
+Rendez-vous sur le site officiel de Python à l'adresse (https://www.python.org) .
+Allez dans la section "Downloads" et téléchargez l'installateur pour macOS.
+Ouvrez le fichier .pkg téléchargé et suivez les instructions à l'écran pour installer Python.
+
+
+Check that the following librarians are also installed:
+
+"rdkit-pypi", "pandas", "matplotlib" par la commande : `pip install [name of librarians]`
+
+Faire de même pour les versions de numpy, qui doit être de 1.24....??:
+
+`python -c "import numpy; print(numpy.__version__)"`
+
 
 To install and use our package, go to the terminal and use the following commands:
 `pip install -e .`
 
 
 
-Faire de même pour les versions de numpy, qui doit être de 1.24....??:
 
-`python -c "import numpy; print(numpy.__version__)"`
 
-Check that the following librarians are also installed:
 
-"rdkit-pypi", "pandas", "matplotlib" par la commande : `pip install [name of librarians]`
 
 `pip install hempy`
 
