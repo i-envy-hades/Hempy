@@ -45,6 +45,10 @@ To install and use our package, go to the terminal and use the following command
 `pip install git+https://github.com/i-envy-hades/Project-2024.git`
 ## manque commande pour installation exterieure ?? avoir notre URL github 
 
+# References:
+
+Chemdraw and Pubchem (smiles)
+
 # copier-liac
 
 [Copier](https://github.com/copier-org/copier) template for pure Python libraries.
