@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 66fd52c
+_src_path: gh:schwallergroup/copier-liac-minimal
+author_email: arthur.benard@epfl.ch , louma.cerrutti@epfl.ch , sarah.elskakini@epfl.ch
+author_name: Arthur Benard, Louma Cerrutti, Sarah El Skakini
+github_org: null
+package_name: hempy
+project_name: hempy
+short_description: This package facilitates the access to research on the different
+    molecules of cannabis, THC and CBD
