@@ -21,15 +21,24 @@ Allez dans la section "Downloads" et téléchargez l'installateur pour macOS.
 Ouvrez le fichier .pkg téléchargé et suivez les instructions à l'écran pour installer Python.
 
 Install the following librarians:
-"numpy" par la commande :  `pip install numpy`
 
-"rdkit" par la commande :  `pip install rdkit-pypi`
+"numpy" with the command : :  `pip install numpy`
 
-"sklearn.metrics" par la commande : `pip install scikit-learn`
+"rdkit" with the command : :  `pip install rdkit-pypi`
 
-"pandas" par la commande :  `pip install panda`
+"sklearn.metrics" with the command : : `pip install scikit-learn`
 
-"matplotlib" par la commande : `pip install `
+"nglview" with the command : : `pip install nglview`
+
+"pandas" with the command :  `pip install pandas`
+
+"requests" with the command : `pip install requests`
+
+"beautiful soup" with the command : `pip install beautifulsoup4`
+
+"IPython" with the command : `pip install ipython`
+
+"matplotlib" with the command : : `pip install matplotlib `
 
 
 
