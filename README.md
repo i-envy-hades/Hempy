@@ -22,8 +22,13 @@ Ouvrez le fichier .pkg téléchargé et suivez les instructions à l'écran pour
 
 Install the following librarians:
 "numpy" par la commande :  `pip install numpy`
+
 "rdkit" par la commande :  `pip install rdkit-pypi`
+
+"sklearn.metrics" par la commande : `pip install scikit-learn`
+
 "pandas" par la commande :  `pip install panda`
+
 "matplotlib" par la commande : `pip install `
 
 
