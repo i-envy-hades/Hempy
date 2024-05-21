@@ -1,24 +1,22 @@
 # Project-2024
-Group project for practical programming by Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini:
+## Group project for practical programming by Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini:
 
 The aim of our project was to create a function package to study chemical molecules.
 More specifically, it can be used to identify chemical properties from the CAS number of the molecule, to determine similarities between two molecules using the Jaccard and Tanimoto index, to visualize molecules in 2 and 3 dimensions, and to study in graphs and tables the values collected from a survey on the use of these molecules. 
 
-- turbopeintre
-- delete every other branches
 
 # Installation 
 
-Avant verifier que la bonne version python soit déjà installer, qui doit être de 3.10 :
+First check that the correct python version is already installed, which must be 3.10. :`python --version`
 
-`python --version`
-Si non mettre à jour: `python3 -m pip install --upgrade pip`
+If not, update it: `python3 -m pip install --upgrade pip`
 
-Si pas encore python, l'installer :
+If python is not installed :
 
 Rendez-vous sur le site officiel de Python à l'adresse (https://www.python.org) .
 Allez dans la section "Downloads" et téléchargez l'installateur pour macOS.
 Ouvrez le fichier .pkg téléchargé et suivez les instructions à l'écran pour installer Python.
+
 
 Install the following librarians:
 
