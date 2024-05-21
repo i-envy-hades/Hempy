@@ -14,17 +14,19 @@ Avant verifier que la bonne version python soit déjà installer, qui doit être
 `python --version`
 Si non mettre à jour: `python3 -m pip install --upgrade pip`
 
-
 Si pas encore python, l'installer :
 
 Rendez-vous sur le site officiel de Python à l'adresse (https://www.python.org) .
 Allez dans la section "Downloads" et téléchargez l'installateur pour macOS.
 Ouvrez le fichier .pkg téléchargé et suivez les instructions à l'écran pour installer Python.
 
+Install the following librarians:
+"numpy" par la commande :  `pip install numpy`
+"rdkit" par la commande :  `pip install rdkit-pypi`
+"pandas" par la commande :  `pip install panda`
+"matplotlib" par la commande : `pip install `
 
-Check that the following librarians are also installed:
 
-"rdkit-pypi", "pandas", "matplotlib" par la commande : `pip install [name of librarians]`
 
 Faire de même pour les versions de numpy, qui doit être de 1.24....??:
 
