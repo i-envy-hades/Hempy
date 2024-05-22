@@ -19,7 +19,6 @@ def draw_2D(smiles):
 
     the molecule drawn in 2D 
     """
-    IPythonConsole.ipython_useSVG = True
     molecule = Chem.MolFromSmiles(smiles)
     if molecule:
         return Draw.MolToImage(molecule)
