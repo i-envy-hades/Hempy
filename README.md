@@ -11,11 +11,11 @@ Hempy is a Python package designed to ...
 
 ## Authors
 Three authors contributed to this project:
-- **Benard Arthur Yves Noël**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)(https://github.com/i-envy-hades)]
+- **Benard Arthur Yves Noël**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/i-envy-hades)
 
-- **Cerutti Louma Valentine Jade**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text][(https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)(https://github.com/LoumaCer)]
+- **Cerutti Louma Valentine Jade**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text][(https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LoumaCer)
   
-- **El Skakini Sarah**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)(https://github.com/sarahelskakini))]
+- **El Skakini Sarah**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarahelskakini))
   
 ## Features
 
