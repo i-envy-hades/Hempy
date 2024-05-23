@@ -19,12 +19,10 @@ More specifically, it can be used to identify chemical properties from the CAS n
   
 ## Features
 
-- **Properties chemistry**: Calculate the needed number of stages and generate McCabe-Thiele diagrams for distillation processes.
-- **Stoichiometric Coefficients**: Determine the stoichiometric coefficients based on a given reaction string and retrieve properties of the products and reactants.
-- **Acid/Base Calculations**: Calculate the pH or concentration of acids and bases in solutions.
-- **Liquid-Liquid Extraction (LLE)**: Calculate the number of stages for both counter-flow and cross-flow LLE processes.
-
-
+- **Properties chemistry**: Generate a table with the chemical formula, average mass,monoisotopic mass. 
+- **Similarity**: Determine the Jaccard's index and Tanimoto's index : an index which inform how two molecules are similars, if the index is close to 1. 
+- **Visualization**: Draw in 2D the molecules and show them in 3D to move them from different angles and better understand the connections between them. 
+- **Survey**: Generate graphs with values collected from a survey on the consumption of these substances, sent to our entourage.
 
 # Installation 
 
