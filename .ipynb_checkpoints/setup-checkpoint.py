@@ -12,9 +12,14 @@ setup(
         "numpy >= 1.24.6",
         "rdkit-pypi",
         "pandas",
-        "matplotlib"
+        "matplotlib",
+        "scikit-learn",
+        "nglview",
+        "requests",
+        "beautifulsoup4",
+        "ipython"
     ],
-    long_description = 'Hempy',
+    long_description = 'Hempy is a Python package designed to study chemical molecules. More specifically, it can be used to identify chemical properties from the CAS number of the molecule, to determine similarities between two molecules using the Jaccard and Tanimoto index, to visualize molecules in 2 and 3 dimensions, and to study in graphs and tables the values collected from a survey on the use of these molecules.',
     classifiers = [
         "Natural Language :: English",
         "Topic :: Scientific/Engineering :: Chemistry",
