@@ -9,4 +9,3 @@ def test_smiles_code():
 
 #Nothing should be returned by this function, meaning smiles_code() works perfectly
 
-test_smiles_code()

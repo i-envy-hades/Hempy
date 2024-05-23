@@ -22,5 +22,3 @@ def test_draw_2D():
 #Verify that the incorrect smiles raises an error
 
 
-
-test_draw_2D()

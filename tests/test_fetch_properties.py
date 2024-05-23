@@ -13,10 +13,6 @@ def test_fetch_chemical_properties_by_cas():
     assert "Error" in data.to_string()  # Check if an error message is returned
 
 
-# Call the test function
-test_fetch_chemical_properties_by_cas()
-
-
 
 
 
