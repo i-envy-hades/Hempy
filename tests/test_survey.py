@@ -8,6 +8,3 @@ def test_plot_consumption_percentage():
 def test_plot_time_vs_age():
     plot_time_vs_age() #Effects duration according to age displayed
 
-
-test_plot_consumption_percentage()
-test_plot_time_vs_age()

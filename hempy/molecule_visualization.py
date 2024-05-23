@@ -50,8 +50,8 @@ def draw_3D(molecule: str, filename: str):
 
     the molecule appears in 3D with the functional groups in red, here the hydroxil.
     
-    
     """
+
     # Ajouter des hydrogènes aux molécules
     mol = Chem.AddHs(molecule)
 

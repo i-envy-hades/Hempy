@@ -9,6 +9,3 @@ def test_visualize_CBD_synthesis():
     visualize_CBD_synthesis()
 
     
-#Check that the synthesis are displayed
-test_visualize_THC_synthesis()
-test_visualize_CBD_synthesis()

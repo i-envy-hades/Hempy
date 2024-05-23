@@ -32,11 +32,4 @@ def test_calculate_molecular_similarity():
     return similarity_jaccard, similarity_tanimoto
 
 
-# Call the test functions and check the values
-similarity_jaccard, similarity_tanimoto = test_calculate_molecular_similarity()
-print(f"Similarity (Jaccard): {similarity_jaccard:.4f}")
-print(f"Similarity (Tanimoto): {similarity_tanimoto:.4f}")
 
-similarity_jaccard_ex, similarity_tanimoto_ex = calculate_molecular_similarity("CCO", "CC(=O)O")
-print("Expected Similarity (Jaccard):", similarity_jaccard_ex)
-print("Expected Similarity (Tanimoto):", similarity_tanimoto_ex)

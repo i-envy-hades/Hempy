@@ -19,7 +19,6 @@ def draw_2D(smiles):
 
     the molecule drawn in 2D 
     """
-    IPythonConsole.ipython_useSVG = True
     molecule = Chem.MolFromSmiles(smiles)
     if molecule:
         return Draw.MolToImage(molecule)
@@ -51,8 +50,8 @@ def draw_3D(molecule: str, filename: str):
 
     the molecule appears in 3D with the functional groups in red, here the hydroxil.
     
-    
     """
+
     # Ajouter des hydrogènes aux molécules
     mol = Chem.AddHs(molecule)
 
