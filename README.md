@@ -4,7 +4,7 @@
 
 [![alt text](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![alt text](https://camo.githubusercontent.com/d9715378ddbf6b262203f7c27f12eeb6a7caa3b85a56cc980dbb2648753d526c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a7570797465722d4633373632362e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d4a757079746572266c6f676f436f6c6f723d707572706c65)](https://jupyter.org)
-[![license](https://img.shields.io/badge/License-MIT-ac8b11.svg?style=for-the-badge&labelColor=yellow)](https://github.com/i-envy-hades/Project-2024/blob/main/LICENSE.txt)
+[![license](https://img.shields.io/badge/License-MIT-ac8b11.svg?style=for-the-badge&labelColor=yellow)](https://github.com/i-envy-hades/Hempy/blob/main/LICENSE.txt)
 
 ## Overview
 
@@ -42,7 +42,7 @@ Ouvrez le fichier .pkg téléchargé et suivez les instructions à l'écran pour
 ## Our package:
 
 To install and use our package, go to the terminal and use the following commands:
-`pip install git+https://github.com/i-envy-hades/Project-2024.git`
+`pip install git+https://github.com/i-envy-hades/Hempy.git`
 
 # References:
 
