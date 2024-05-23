@@ -19,10 +19,9 @@ More specifically, it can be used to identify chemical properties from the CAS n
   
 ## Features
 
-- **Properties chemistry**: Generate a table with the chemical formula, average mass,monoisotopic mass. 
-- **Similarity**: Determine the Jaccard's index and Tanimoto's index : an index which inform how two molecules are similars, if the index is close to 1. 
-- **Visualization**: Draw in 2D the molecules and show them in 3D to move them from different angles and better understand the connections between them. 
-- **Survey**: Generate graphs with values collected from a survey on the consumption of these substances, sent to our entourage.
+- **Chemistry properties**: Generate a table with the chemical formula, average mass,monoisotopic mass...  
+- **Visualization**: Draw in 2D the molecules or 3D to better understand the connections between them. 
+- **Survey**: Generate graphs with informations collected from a survey on the consumption of these substances.
 
 # Installation 
 
