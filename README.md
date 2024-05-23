@@ -1,4 +1,4 @@
-# ToolboxLab
+# Hempy
 
 [![alt text](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![alt text](https://camo.githubusercontent.com/d9715378ddbf6b262203f7c27f12eeb6a7caa3b85a56cc980dbb2648753d526c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a7570797465722d4633373632362e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d4a757079746572266c6f676f436f6c6f723d707572706c65)](https://jupyter.org)
@@ -11,12 +11,11 @@ Hempy is a Python package designed to ...
 
 ## Authors
 Three authors contributed to this project:
-- **Benard Arthur Yves Noël**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BrunoGonOli)
+- **Benard Arthur Yves Noël**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)][(https://github.com/i-envy-hades)]
 
-- **Cerutti Louma Valentine Jade**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arnautovich)
+- **Cerutti Louma Valentine Jade**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text][(https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)][(https://github.com/LoumaCer)]
   
-- **El Skakini Sarah**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nicolas-jnn)
-
+- **El Skakini Sarah**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)][(https://github.com/sarahelskakini))]
   
 ## Features
 
