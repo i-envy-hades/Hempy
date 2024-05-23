@@ -8,6 +8,7 @@ from sklearn.metrics import pairwise_distances
 import numpy as np
 from urllib.request import urlopen
 from urllib.parse import quote
+import requests
 
 
 
@@ -106,5 +107,20 @@ def smiles_code(name):
         return ans
     except:
         return 'Did not work' #If the molecule name is not well written or doesn't exist, it returns nothing
+
+
+
+def cas_nnumber(mol_name):
+    
+        # Construct the URL with molecule name
+    url = f"https://commonchemistry.cas.org/results?q={mol_name}"
+
+        # Send a GET request to the CIR service
+    file = requests.get(url)
+
+    find = "Result: "
+    start=response.text.find(find)+len(find)
+    end = response.text.find("," ,start)
+    return response.text[start: end]
 
 
