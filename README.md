@@ -1,3 +1,32 @@
+# ToolboxLab
+
+[![alt text](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![alt text](https://camo.githubusercontent.com/d9715378ddbf6b262203f7c27f12eeb6a7caa3b85a56cc980dbb2648753d526c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a7570797465722d4633373632362e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d4a757079746572266c6f676f436f6c6f723d707572706c65)](https://jupyter.org)
+[![license](https://img.shields.io/badge/License-MIT-ac8b11.svg?style=for-the-badge&labelColor=yellow)](https://github.com/Arnautovich/Toolbox/blob/main/LICENSE)
+[![open an issue](https://custom-icon-badges.demolab.com/badge/-Open%20Issue-palegreen?style=for-the-badge&logoColor=black&logo=issue-opened)](https://github.com/Arnautovich/Toolbox/issues)
+
+## Overview
+
+Hempy is a Python package designed to ...
+
+## Authors
+Three authors contributed to this project:
+- **Benard Arthur Yves Noël**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BrunoGonOli)
+
+- **Cerutti Louma Valentine Jade**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arnautovich)
+  
+- **El Skakini Sarah**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nicolas-jnn)
+
+  
+## Features
+
+- **Properties chemistry**: Calculate the needed number of stages and generate McCabe-Thiele diagrams for distillation processes.
+- **Stoichiometric Coefficients**: Determine the stoichiometric coefficients based on a given reaction string and retrieve properties of the products and reactants.
+- **Acid/Base Calculations**: Calculate the pH or concentration of acids and bases in solutions.
+- **Liquid-Liquid Extraction (LLE)**: Calculate the number of stages for both counter-flow and cross-flow LLE processes.
+
+
+
 # Project-2024
 ## Group project for practical programming by Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini:
 
