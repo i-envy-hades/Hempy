@@ -7,13 +7,14 @@
 
 ## Overview
 
-Hempy is a Python package designed to ...
+Hempy is a Python package designed to study chemical molecules.
+More specifically, it can be used to identify chemical properties from the CAS number of the molecule, to determine similarities between two molecules using the Jaccard and Tanimoto index, to visualize molecules in 2 and 3 dimensions, and to study in graphs and tables the values collected from a survey on the use of these molecules. 
 
 ## Authors
-Three authors contributed to this project:
+
 - **Benard Arthur Yves Noël**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/i-envy-hades)
 
-- **Cerutti Louma Valentine Jade**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text][(https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LoumaCer)
+- **Cerutti Louma Valentine Jade**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LoumaCer)
   
 - **El Skakini Sarah**, BSc in chemistry and chemical engineering at **[EPFL](https://www.epfl.ch)**   [![alt text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarahelskakini))
   
@@ -26,7 +27,6 @@ Three authors contributed to this project:
 
 
 
-# Project-2024
 ## Group project for practical programming by Arthur Yves Noël Benard/ Louma Cerutti/ Sarah El Skakini:
 
 The aim of our project was to create a function package to study chemical molecules.
