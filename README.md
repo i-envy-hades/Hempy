@@ -1,5 +1,3 @@
- <span style="color:blue">Mon Projet Fantastique</span>
-
 # Hempy
 
 [![alt text](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
