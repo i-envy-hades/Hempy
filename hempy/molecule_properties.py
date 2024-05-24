@@ -110,17 +110,36 @@ def smiles_code(name):
 
 
 
-def cas_nnumber(mol_name):
+def cas_number(mol_name):
+    """
+    requests library is imported.
+    
+    Parameters:
+    ----------
+    -string , corresponding to molecule name (ex: 'Water', 'Methanol', ...)
+    
+    Returns:
+    -------
+    -string , corresponding to CAS code (ex: '50-08-0',...)
+    
+    """
     
         # Construct the URL with molecule name
     url = f"https://commonchemistry.cas.org/results?q={mol_name}"
 
-        # Send a GET request to the CIR service
+        # CIR service will receive a GET request
     file = requests.get(url)
 
-    find = "Result: "
-    start=response.text.find(find)+len(find)
-    end = response.text.find("," ,start)
-    return response.text[start: end]
+    
+
+    if file.status_code == 200:
+#This verifies that the satus code of the URL is 200 (OK)
+        prompt = "Result: "
+        start = file.text.find(prompt)+len(prompt)
+        end = file.text.find("," ,start)
+    
+        return file.text[start: end]
+    else:
+        return "Invalid molecule name"
 
 
