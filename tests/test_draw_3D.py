@@ -1,6 +1,4 @@
-
-from hempy.molecule_visualization import *
-
+from hempy.molecule_visualization import draw_3D
 
 
 
