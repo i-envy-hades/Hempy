@@ -10,7 +10,8 @@ def test_fetch_chemical_properties_by_cas():
     # Test with an invalid CAS number
     invalid_cas_number = "invalid_cas_number"
     data, final_url = fetch_chemical_properties_by_cas(invalid_cas_number)
-    assert "Error" in data.to_string()  # Check if an error message is returned
+    assert "None" in data.to_string()  
+   #If an invalid CAS number is given, the Values will be equal to "None", so the test function checks it
 
 
 
