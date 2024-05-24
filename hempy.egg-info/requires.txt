@@ -2,3 +2,8 @@ numpy>=1.24.6
 rdkit-pypi
 pandas
 matplotlib
+scikit-learn
+nglview
+requests
+beautifulsoup4
+ipython

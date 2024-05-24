@@ -21,5 +21,10 @@ Requires-Dist: numpy>=1.24.6
 Requires-Dist: rdkit-pypi
 Requires-Dist: pandas
 Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: nglview
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: ipython
 
-Hempy
+Hempy is a Python package designed to study chemical molecules. More specifically, it can be used to identify chemical properties from the CAS number of the molecule, to determine similarities between two molecules using the Jaccard and Tanimoto index, to visualize molecules in 2 and 3 dimensions, and to study in graphs and tables the values collected from a survey on the use of these molecules.

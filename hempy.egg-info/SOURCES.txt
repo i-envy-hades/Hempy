@@ -11,7 +11,11 @@ hempy.egg-info/SOURCES.txt
 hempy.egg-info/dependency_links.txt
 hempy.egg-info/requires.txt
 hempy.egg-info/top_level.txt
-tests/test_properties.py
+tests/test_cas_number.py
+tests/test_draw_2D.py
+tests/test_draw_3D.py
+tests/test_fetch_properties.py
+tests/test_similarity.py
+tests/test_smiles_code.py
 tests/test_survey.py
 tests/test_synthesis.py
-tests/test_visualization.py
