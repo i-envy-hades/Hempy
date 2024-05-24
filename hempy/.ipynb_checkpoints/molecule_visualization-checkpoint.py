@@ -7,6 +7,9 @@ import numpy as np
 from rdkit.Chem import Draw
 from rdkit.Chem import Draw
 
+from nglview import show_structure_file
+
+
 def draw_2D(smiles):
     """
     Draw molecules in 2D according to these smiles with the fonctionnel group hightlight, here the hydroxyl.
@@ -35,7 +38,7 @@ print(CBD_molecule)
 #Synonyms : Cannabidiol
 
 
-from nglview import show_structure_file
+
 
 def draw_3D(molecule: str, filename: str):
     """
