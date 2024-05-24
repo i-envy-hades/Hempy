@@ -46,9 +46,9 @@ To install and use our package, go to the terminal and use the following command
 
 PubChem : https://pubchem.ncbi.nlm.nih.gov for properties of molecules
 
-ChatGPT : https://chatgpt.com for problem in programmation 
+ChatGPT : https://chatgpt.com for problem in programing 
 
-Geeksforgeeks : https://www.geeksforgeeks.org for know how to use librarians (ex: Beautiful Soup) and  Jaccard’s and Tanimoto’s index
+Geeksforgeeks : https://www.geeksforgeeks.org for how to use libraries (ex: Beautiful Soup) and  Jaccard’s and Tanimoto’s index
 
 ChemSpider : https://www.chemspider.com for visualization of molecules
 
